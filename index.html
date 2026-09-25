@@ -1,28 +1,320 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tifanny Petrucci</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tifanny Petrucci - Conseillère indépendante</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff7f5;
+    color: #3b2929;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f8dfe0, #fffaf7);
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    margin: 5px;
+    color: #a84f62;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: #8d5360;
+}
+
+.role {
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.intro {
+    max-width: 650px;
+    margin: auto;
+    font-size: 17px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 13px 25px;
+    background: #a84f62;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(100,60,60,0.12);
+    border: 1px solid #efd8d5;
+}
+
+.icon {
+    font-size: 45px;
+}
+
+.card h3 {
+    font-family: Georgia, serif;
+    font-size: 27px;
+    color: #8d5360;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.card li {
+    margin: 9px 0;
+}
+
+.models {
+    background: #fff0ef;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.mallette {
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(135deg, #f5d8da, #fffaf7);
+    border-radius: 22px;
+}
+
+.contact {
+    margin-top: 30px;
+    padding: 25px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+}
+
+.contact a {
+    color: #a84f62;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #765e60;
+}
+
+@media (max-width: 750px) {
+    .categories {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
+</style>
 </head>
 
 <body>
 
-  <h1>Tifanny Petrucci</h1>
+<header>
 
-  <h2>Conseillère consultante indépendante</h2>
+<div style="letter-spacing:4px;">PETRUCCI</div>
 
-  <p>Bienvenue sur mon espace découverte !</p>
+<h1>Tifanny</h1>
 
-  <h2>🌸 Parfums</h2>
+<div class="role">
+CONSEILLÈRE CONSULTANTE INDÉPENDANTE
+</div>
 
-  <h2>💄 Beauté</h2>
+<p class="intro">
+Bienvenue dans mon univers beauté et bien-être.
+Découvrez mes produits, demandez conseil et profitez
+d'une expérience personnalisée.
+</p>
 
-  <h2>🥗 Nutrition</h2>
+<a class="btn" href="https://wa.me/33787170383">
+💬 Me contacter sur WhatsApp
+</a>
 
-  <h2>🏠 Entretien de la maison</h2>
+</header>
 
-  <p>📞 07 87 17 03 83</p>
+<div class="container">
+
+<h2 style="text-align:center;">
+✨ MES UNIVERS ✨
+</h2>
+
+<div class="categories">
+
+<div class="card">
+
+<div class="icon">🌸</div>
+
+<h3>Parfums</h3>
+
+<p>
+Des fragrances pour toutes les personnalités.
+</p>
+
+<ul>
+<li>Parfums femme</li>
+<li>Parfums homme</li>
+<li>Parfums mixtes</li>
+<li>Parfums enfant</li>
+</ul>
+
+<div class="models">
+<strong>Quelques modèles :</strong><br>
+Floral • Fruité • Boisé • Oriental • Frais
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">💄</div>
+
+<h3>Cosmétiques</h3>
+
+<p>
+Prenez soin de votre peau et révélez votre beauté.
+</p>
+
+<ul>
+<li>Soins du visage</li>
+<li>Soins du corps</li>
+<li>Maquillage</li>
+<li>Produits capillaires</li>
+<li>Hygiène</li>
+</ul>
+
+<div class="models">
+<strong>Quelques modèles :</strong><br>
+Hydratation • Anti-âge • Maquillage • Cheveux • Corps
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🏠</div>
+
+<h3>Entretien de la maison</h3>
+
+<p>
+Des produits pratiques pour une maison propre au quotidien.
+</p>
+
+<ul>
+<li>Lessive</li>
+<li>Vaisselle</li>
+<li>Cuisine</li>
+<li>Salle de bain</li>
+<li>Multi-surfaces</li>
+</ul>
+
+<div class="models">
+<strong>Quelques modèles :</strong><br>
+Linge • Cuisine • Salle de bain • Sols • Surfaces
+</div>
+
+</div>
+
+</div>
+
+
+<div class="mallette">
+
+<h2>🧳 MA MALLETTE D'ÉCHANTILLONS</h2>
+
+<h3>
+Faites voyager la mallette chez vous !
+</h3>
+
+<p>
+Découvrez tranquillement les parfums, testez-les,
+comparez-les et trouvez votre coup de cœur.
+</p>
+
+<p>
+✨ Échantillons de parfums femme, homme et mixtes<br>
+✨ Une sélection à découvrir chez vous<br>
+✨ Notez simplement le numéro de votre parfum préféré
+</p>
+
+<a class="btn" href="https://wa.me/33787170383">
+📩 Demander la mallette
+</a>
+
+</div>
+
+
+<div class="contact">
+
+<h2>📞 Me contacter</h2>
+
+<p>
+<strong>Téléphone :</strong><br>
+<a href="tel:+33787170383">
+07 87 17 03 83
+</a>
+</p>
+
+<p>
+<strong>Email :</strong><br>
+<a href="mailto:Titine69160@gmail.com">
+Titine69160@gmail.com
+</a>
+</p>
+
+<p>
+<strong>TikTok :</strong> @titiamine69160
+</p>
+
+<p>
+<strong>Instagram :</strong> @titiamine69
+</p>
+
+<p>
+📍 Lyon
+</p>
+
+</div>
+
+</div>
+
+<footer>
+
+Parfums • Cosmétiques • Entretien de la maison
+
+</footer>
 
 </body>
 </html>
