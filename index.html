@@ -3,139 +3,210 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tifanny Petrucci - Conseillère indépendante</title>
+
+<title>Tiffany Petrucci - Conseillère consultante indépendante</title>
 
 <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #fff7f5;
-    color: #3b2929;
+
+*{
+box-sizing:border-box;
 }
 
-header {
-    text-align: center;
-    padding: 40px 20px;
-    background: linear-gradient(135deg, #f8dfe0, #fffaf7);
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#fff8f5;
+color:#3b2929;
 }
 
-h1 {
-    font-family: Georgia, serif;
-    font-size: 48px;
-    margin: 5px;
-    color: #a84f62;
+header{
+padding:45px 20px 35px;
+text-align:center;
+background:linear-gradient(135deg,#fbe4e4,#fff8f5,#f6d7d9);
 }
 
-h2 {
-    font-family: Georgia, serif;
-    color: #8d5360;
+.logo{
+letter-spacing:8px;
+font-size:22px;
 }
 
-.role {
-    letter-spacing: 2px;
-    font-weight: bold;
-    margin: 15px 0;
+h1{
+font-family:Georgia,serif;
+font-size:52px;
+margin:8px 0;
+color:#a84f62;
 }
 
-.intro {
-    max-width: 650px;
-    margin: auto;
-    font-size: 17px;
+.sous-titre{
+font-weight:bold;
+font-size:20px;
+letter-spacing:2px;
 }
 
-.btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 13px 25px;
-    background: #a84f62;
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
+.intro{
+max-width:650px;
+margin:25px auto;
+font-size:18px;
+line-height:1.6;
 }
 
-.container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 20px;
+.whatsapp{
+display:inline-block;
+background:#ad5368;
+color:white;
+text-decoration:none;
+padding:16px 28px;
+border-radius:35px;
+font-weight:bold;
+font-size:17px;
 }
 
-.categories {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+section{
+max-width:1100px;
+margin:auto;
+padding:45px 18px;
 }
 
-.card {
-    background: white;
-    border-radius: 20px;
-    padding: 25px;
-    box-shadow: 0 6px 20px rgba(100,60,60,0.12);
-    border: 1px solid #efd8d5;
+h2{
+font-family:Georgia,serif;
+text-align:center;
+font-size:34px;
+color:#a84f62;
+margin-bottom:35px;
 }
 
-.icon {
-    font-size: 45px;
+.categories{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:22px;
 }
 
-.card h3 {
-    font-family: Georgia, serif;
-    font-size: 27px;
-    color: #8d5360;
+.categorie{
+background:white;
+border-radius:25px;
+padding:30px 22px;
+border:1px solid #ead5d5;
+box-shadow:0 8px 25px rgba(120,70,70,.10);
+text-align:center;
+transition:.3s;
 }
 
-.card ul {
-    padding-left: 20px;
+.categorie:hover{
+transform:translateY(-5px);
 }
 
-.card li {
-    margin: 9px 0;
+.icone{
+font-size:48px;
 }
 
-.models {
-    background: #fff0ef;
-    border-radius: 12px;
-    padding: 12px;
-    margin-top: 15px;
-    font-size: 14px;
+.categorie h3{
+font-family:Georgia,serif;
+font-size:30px;
+color:#9f5364;
 }
 
-.mallette {
-    margin-top: 30px;
-    padding: 30px;
-    text-align: center;
-    background: linear-gradient(135deg, #f5d8da, #fffaf7);
-    border-radius: 22px;
+.categorie p{
+line-height:1.6;
 }
 
-.contact {
-    margin-top: 30px;
-    padding: 25px;
-    text-align: center;
-    background: white;
-    border-radius: 20px;
+.bouton{
+display:inline-block;
+margin-top:15px;
+padding:12px 22px;
+border-radius:25px;
+background:#f2d0d5;
+color:#713c49;
+text-decoration:none;
+font-weight:bold;
 }
 
-.contact a {
-    color: #a84f62;
-    font-weight: bold;
-    text-decoration: none;
+.produits{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:18px;
+margin-top:25px;
 }
 
-footer {
-    text-align: center;
-    padding: 25px;
-    color: #765e60;
+.produit{
+background:#fffafa;
+border-radius:20px;
+padding:20px;
+border:1px solid #ecdada;
 }
 
-@media (max-width: 750px) {
-    .categories {
-        grid-template-columns: 1fr;
-    }
-
-    h1 {
-        font-size: 40px;
-    }
+.produit-visuel{
+height:150px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(145deg,#f8e1e1,#fff);
+border-radius:15px;
+font-size:70px;
 }
+
+.produit h4{
+font-family:Georgia,serif;
+font-size:21px;
+color:#9f5364;
+margin-bottom:8px;
+}
+
+.mallette{
+background:linear-gradient(135deg,#f7d8dc,#fff7f5);
+border-radius:30px;
+padding:35px 25px;
+text-align:center;
+box-shadow:0 8px 30px rgba(120,70,70,.12);
+}
+
+.mallette-icon{
+font-size:80px;
+}
+
+.mallette ul{
+text-align:left;
+max-width:550px;
+margin:25px auto;
+line-height:2;
+}
+
+.contact{
+text-align:center;
+background:#f8e1e1;
+}
+
+footer{
+text-align:center;
+padding:25px;
+font-size:14px;
+color:#76565c;
+}
+
+@media(max-width:700px){
+
+h1{
+font-size:43px;
+}
+
+.sous-titre{
+font-size:16px;
+}
+
+.categories,
+.produits{
+grid-template-columns:1fr;
+}
+
+section{
+padding:35px 15px;
+}
+
+h2{
+font-size:29px;
+}
+
+}
+
 </style>
 </head>
 
@@ -143,37 +214,41 @@ footer {
 
 <header>
 
-<div style="letter-spacing:4px;">PETRUCCI</div>
+<div class="logo">PETRUCCI</div>
 
-<h1>Tifanny</h1>
+<h1>Tiffany</h1>
 
-<div class="role">
-CONSEILLÈRE CONSULTANTE INDÉPENDANTE
+<div class="sous-titre">
+CONSEILLÈRE CONSULTANTE<br>
+INDÉPENDANTE
 </div>
 
 <p class="intro">
 Bienvenue dans mon univers beauté et bien-être.
+<br>
 Découvrez mes produits, demandez conseil et profitez
 d'une expérience personnalisée.
 </p>
 
-<a class="btn" href="https://wa.me/33787170383">
+<a class="whatsapp"
+href="https://wa.me/33787170383"
+target="_blank">
 💬 Me contacter sur WhatsApp
 </a>
 
 </header>
 
-<div class="container">
 
-<h2 style="text-align:center;">
-✨ MES UNIVERS ✨
-</h2>
+<section>
+
+<h2>✨ MES UNIVERS ✨</h2>
 
 <div class="categories">
 
-<div class="card">
 
-<div class="icon">🌸</div>
+<div class="categorie">
+
+<div class="icone">🌸</div>
 
 <h3>Parfums</h3>
 
@@ -181,138 +256,271 @@ d'une expérience personnalisée.
 Des fragrances pour toutes les personnalités.
 </p>
 
-<ul>
-<li>Parfums femme</li>
-<li>Parfums homme</li>
-<li>Parfums mixtes</li>
-<li>Parfums enfant</li>
-</ul>
-
-<div class="models">
-<strong>Quelques modèles :</strong><br>
-Floral • Fruité • Boisé • Oriental • Frais
-</div>
-
-</div>
-
-
-<div class="card">
-
-<div class="icon">💄</div>
-
-<h3>Cosmétiques</h3>
-
 <p>
-Prenez soin de votre peau et révélez votre beauté.
+Parfums femme<br>
+Parfums homme<br>
+Parfums mixtes<br>
+Parfums enfant
 </p>
 
-<ul>
-<li>Soins du visage</li>
-<li>Soins du corps</li>
-<li>Maquillage</li>
-<li>Produits capillaires</li>
-<li>Hygiène</li>
-</ul>
-
-<div class="models">
-<strong>Quelques modèles :</strong><br>
-Hydratation • Anti-âge • Maquillage • Cheveux • Corps
-</div>
+<a class="bouton" href="#parfums">
+Découvrir les parfums
+</a>
 
 </div>
 
 
-<div class="card">
+<div class="categorie">
 
-<div class="icon">🏠</div>
+<div class="icone">💄</div>
 
-<h3>Entretien de la maison</h3>
+<h3>Beauté</h3>
 
 <p>
-Des produits pratiques pour une maison propre au quotidien.
+Prenez soin de votre beauté au quotidien.
 </p>
 
-<ul>
-<li>Lessive</li>
-<li>Vaisselle</li>
-<li>Cuisine</li>
-<li>Salle de bain</li>
-<li>Multi-surfaces</li>
-</ul>
+<p>
+Soins visage<br>
+Soins corps<br>
+Maquillage<br>
+Produits capillaires
+</p>
 
-<div class="models">
-<strong>Quelques modèles :</strong><br>
-Linge • Cuisine • Salle de bain • Sols • Surfaces
+<a class="bouton" href="#beaute">
+Découvrir la beauté
+</a>
+
+</div>
+
+
+<div class="categorie">
+
+<div class="icone">🏠</div>
+
+<h3>Entretien maison</h3>
+
+<p>
+Des solutions pratiques pour une maison propre.
+</p>
+
+<p>
+Lessive<br>
+Vaisselle<br>
+Multi-surfaces<br>
+Nettoyage
+</p>
+
+<a class="bouton" href="#maison">
+Découvrir les produits
+</a>
+
+</div>
+
+
+<div class="categorie">
+
+<div class="icone">🎒</div>
+
+<h3>Mallette d'échantillons</h3>
+
+<p>
+Découvrez, testez et trouvez vos produits préférés
+avant de commander.
+</p>
+
+<a class="bouton" href="#mallette">
+Découvrir la mallette
+</a>
+
 </div>
 
 </div>
 
+</section>
+
+
+
+<section id="parfums">
+
+<h2>🌸 PARFUMS</h2>
+
+<div class="produits">
+
+<div class="produit">
+<div class="produit-visuel">🌹</div>
+<h4>Parfums Femme</h4>
+<p>Des fragrances élégantes, florales, fruitées ou sensuelles.</p>
 </div>
 
+<div class="produit">
+<div class="produit-visuel">🖤</div>
+<h4>Parfums Homme</h4>
+<p>Des senteurs fraîches, boisées, épicées ou élégantes.</p>
+</div>
+
+<div class="produit">
+<div class="produit-visuel">✨</div>
+<h4>Parfums Mixtes</h4>
+<p>Des fragrances qui peuvent être portées par tous.</p>
+</div>
+
+<div class="produit">
+<div class="produit-visuel">🌸</div>
+<h4>Parfums Enfant</h4>
+<p>Des senteurs douces et adaptées aux plus jeunes.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="beaute">
+
+<h2>💄 BEAUTÉ</h2>
+
+<div class="produits">
+
+<div class="produit">
+<div class="produit-visuel">🧴</div>
+<h4>Soins visage</h4>
+<p>Des produits pour prendre soin de votre peau au quotidien.</p>
+</div>
+
+<div class="produit">
+<div class="produit-visuel">🫧</div>
+<h4>Soins corps</h4>
+<p>Hydratation, douceur et soins pour toute la famille.</p>
+</div>
+
+<div class="produit">
+<div class="produit-visuel">💋</div>
+<h4>Maquillage</h4>
+<p>Découvrez différentes références pour votre routine beauté.</p>
+</div>
+
+<div class="produit">
+<div class="produit-visuel">💇‍♀️</div>
+<h4>Produits capillaires</h4>
+<p>Des soins pour prendre soin de vos cheveux.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="maison">
+
+<h2>🏠 ENTRETIEN DE LA MAISON</h2>
+
+<div class="produits">
+
+<div class="produit">
+<div class="produit-visuel">🧺</div>
+<h4>Lessive</h4>
+<p>Des produits pour prendre soin de votre linge.</p>
+</div>
+
+<div class="produit">
+<div class="produit-visuel">🫧</div>
+<h4>Vaisselle</h4>
+<p>Des solutions pour votre vaisselle au quotidien.</p>
+</div>
+
+<div class="produit">
+<div class="produit-visuel">✨</div>
+<h4>Multi-surfaces</h4>
+<p>Pour différentes surfaces de votre maison.</p>
+</div>
+
+<div class="produit">
+<div class="produit-visuel">🧽</div>
+<h4>Nettoyage</h4>
+<p>Des produits pratiques pour votre entretien quotidien.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="mallette">
 
 <div class="mallette">
 
-<h2>🧳 MA MALLETTE D'ÉCHANTILLONS</h2>
+<div class="mallette-icon">🎒✨</div>
 
-<h3>
-Faites voyager la mallette chez vous !
-</h3>
+<h2>MA MALLETTE D'ÉCHANTILLONS</h2>
 
 <p>
-Découvrez tranquillement les parfums, testez-les,
-comparez-les et trouvez votre coup de cœur.
+<strong>La mallette peut voyager jusqu'à chez vous !</strong>
 </p>
 
 <p>
-✨ Échantillons de parfums femme, homme et mixtes<br>
-✨ Une sélection à découvrir chez vous<br>
-✨ Notez simplement le numéro de votre parfum préféré
+Découvrez tranquillement les produits, testez vos préférés
+et prenez le temps de choisir.
 </p>
 
-<a class="btn" href="https://wa.me/33787170383">
-📩 Demander la mallette
+<ul>
+<li>🌸 Échantillons de parfums</li>
+<li>💄 Découverte de produits beauté</li>
+<li>🏠 Produits d'entretien à découvrir</li>
+<li>❤️ Conseils personnalisés</li>
+<li>✨ Une expérience à partager</li>
+</ul>
+
+<a class="whatsapp"
+href="https://wa.me/33787170383?text=Bonjour%20Tiffany%2C%20je%20souhaite%20d%C3%A9couvrir%20la%20mallette%20d%27%C3%A9chantillons."
+target="_blank">
+🎒 Je souhaite recevoir la mallette
 </a>
 
 </div>
 
+</section>
 
-<div class="contact">
 
-<h2>📞 Me contacter</h2>
+
+<section class="contact">
+
+<h2>💗 BESOIN D'UN CONSEIL ?</h2>
 
 <p>
-<strong>Téléphone :</strong><br>
-<a href="tel:+33787170383">
-07 87 17 03 83
+Je suis disponible pour vous accompagner dans vos choix.
+</p>
+
+<a class="whatsapp"
+href="https://wa.me/33787170383"
+target="_blank">
+💬 Écrire à Tiffany
 </a>
-</p>
 
-<p>
-<strong>Email :</strong><br>
-<a href="mailto:Titine69160@gmail.com">
-Titine69160@gmail.com
-</a>
-</p>
+</section>
 
-<p>
-<strong>TikTok :</strong> @titiamine69160
-</p>
 
-<p>
-<strong>Instagram :</strong> @titiamine69
-</p>
-
-<p>
-📍 Lyon
-</p>
-
-</div>
-
-</div>
 
 <footer>
 
-Parfums • Cosmétiques • Entretien de la maison
+PETRUCCI Tiffany ♡<br><br>
+
+Parfums • Beauté • Entretien de la maison
+
+<br><br>
+
+📞 07 87 17 03 83
+
+<br>
+
+📧 Titine69160@gmail.com
+
+<br><br>
+
+📍 Lyon
 
 </footer>
 
